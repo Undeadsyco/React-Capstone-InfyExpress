@@ -1,0 +1,93 @@
+{
+  "bookings": [
+    {
+      "sender": {
+        "name": "AdamDaMan",
+        "phNo": "12345",
+        "address": {
+          "country": "United States",
+          "city": "Wichita",
+          "address": "831 south dellrose",
+          "zipCode": "67218"
+        }
+      },
+      "receiver": {
+        "name": "brian",
+        "phNo": "54321",
+        "address": {
+          "country": "United States",
+          "city": "Wichita",
+          "address": "1448 north Volusia",
+          "zipCode": "67214"
+        }
+      },
+      "pickUpDate": "2022-01-27",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "username": "AdamDaMan",
+      "email": "adam@gmail.com",
+      "password": "password1",
+      "confirmPassword": "password1",
+      "phoneNum": 3332113445,
+      "id": 1
+    },
+    {
+      "username": "user",
+      "email": "user@gmail.com",
+      "password": "password1",
+      "confirmPassword": "password1",
+      "phoneNum": 123456789,
+      "id": 2
+    }
+  ],
+  "services": [
+    {
+      "serviceName": "Domestic Express",
+      "id": 1,
+      "description": "We send packages 'domestically' anywhere in India, 365 days a year.",
+      "discount": 10,
+      "parcelCharges": "Packages are charged on the basis on their weight and travel distance.",
+      "parcelSize": "Packages can size up to 500 cm (total dimensions of 3 size) and 30 kg"
+    },
+    {
+      "serviceName": "International Express",
+      "id": 2,
+      "description": "We send packages 'internationally' anywhere in the world, 365 days a year.",
+      "discount": 5,
+      "parcelCharges": "Packages are charged on the basis on their weight and travel distance.",
+      "parcelSize": "Packages can size up to 500 cm (total dimensions of 3 size) and 20 kg"
+    },
+    {
+      "serviceName": "Cold Express",
+      "id": 3,
+      "description": "We send 'cold' packages anywhere in India, 365 days a year.",
+      "discount": 7,
+      "parcelCharges": "Packages are charged on the basis on their weight and travel distance.",
+      "parcelSize": "Packages can size up to 350 cm (total dimensions of 3 size) and 10 kg"
+    },
+    {
+      "serviceName": "Mail Express",
+      "id": 4,
+      "description": "We send 'mailers' and 'letters' anywhere in India, 365 days a year.",
+      "discount": 7,
+      "parcelCharges": "Packages are charged on the basis on their weight and travel distance.",
+      "parcelSize": "Packages can size up to 30 cm (total dimensions of 3 size) and 1 kg"
+    }
+  ],
+  "queries": [
+    {
+      "to": "nws",
+      "from": "hey",
+      "weight": 4,
+      "dementions": {
+        "length": 4,
+        "width": 5,
+        "height": 2
+      },
+      "id": 1
+    }
+  ]
+}
